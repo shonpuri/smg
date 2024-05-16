@@ -20,6 +20,9 @@ class ResConfigSettings(models.TransientModel):
 
     _inherit = 'res.config.settings'
 
+
+    map_box_token = fields.Char(string="Map Box Token")
+
     #----------------------------------------------------------
     # Fields
     #----------------------------------------------------------
